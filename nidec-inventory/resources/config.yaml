@@ -1,0 +1,16 @@
+---
+config:
+  # EXTENSIÓN FICHERO PARÁMETROS
+  ext_par_file: '.parfile'
+  ext_excel: '.xlsx'
+  ext_csv: '.csv'
+
+  # NOMBRES DE FICHEROS EXCLUIDOS (sin extensión)
+  excluded_files: ['.DS_Store', 'default']
+
+  # NOMBRE DE DIRECTORIOS EXCLUIDOS
+  excluded_directories: ['devices','parameter files']
+
+  # ETIQUETA RAIZ
+  root_tag: "ParameterFile"
+...

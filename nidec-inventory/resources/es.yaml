@@ -1,0 +1,48 @@
+# Fichero de localización en español
+
+---
+txt:
+  t01: '[ANALIZANDO]'
+  t02: '[GENERANDO FICHERO DE RESULTADOS]'
+  t03: '[:: FORMATO excel]'
+  t04: '[GENERANDO RESULTADOS]'
+  t05: '[:: FORMATO csv]'
+  t06: '[FIN DEL PROCESO]'
+  t07: '[ERROR]: Sin parámetro'
+  t08: '[PARAM VAL]:'
+  t09: '[ERROR]'
+  t10: 'Análisis de repositorio'
+  t11: 'Conexión a variador'
+  t12: 'Net tools'
+
+data_in_op: '[OPCIÓN]'
+data_in_param: '[PARAMETRO]'
+data_in_ip: '[IP DEL VARIADOR]'
+menu_opciones_titulo: 'OPCIONES'
+
+tabla_1c:
+  titulo: 'RESULTADOS'
+  col: 'FICHERO'
+
+menu:
+  descrip: 'Generador de inventario de accionamientos NIDEC.'
+  p: 'path del repositorio de ficheros de parámetros'
+  f: 'nombre del fichero de salida (sin extensión)'
+  o: 'formato del fichero de salida, csv o excel'
+
+err:
+  e1: '[ERROR]: el fichero a procesar, %s no está disponible.'
+  e2: '[ERROR]: formato de salida %s no soportado.'
+  e3: '[ERROR]: al analizar %s se ha producido un error: %s'
+  e4: '[ERROR]: %s al generar el inventario.'
+  e5: '[ERROR]: %s al acceder al fichero de parámetros.'
+  e6: '[ERROR]: el parámetro %s no tiene el formato adecuado.'
+  e7: '[ERROR]: root_tag incorrecta, verificar fichero config.yaml'
+  e8: '[ERROR]: root_tag no iterable, el contenido xml recuperado no es correcto, Detalles: %s.'
+  e9: '[ERROR]: imposible procesar contenido XML. Detalle: %s '
+  e10: '[ERROR]: no se ha conseguido finalizar el proceso.'
+  e11: '[ERROR]: imposible acceso a fichero.'
+
+info:
+  i1: '[INFO]: Proceso finalizado correctamente.'
+...
