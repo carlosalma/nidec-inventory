@@ -47,13 +47,13 @@ pip install nidec-inventory
 
 Ejemplos de ejecución:
 
-```
+```shelter
 # Ejemplos de salida en formato csv
 $ python nidec-inventory.py -p "../REPO/Unidrive M Connect/" -f log
 $ python nidec-inventory.py -p "../REPO/Unidrive M Connect/" -o csv -f log
 ```
 
-```
+```shelter
 # Ejemplo de salida en formato excel
 $ python nidec-inventory.py -p "../REPO/Unidrive M Connect/" -o excel -f log
 ```
@@ -71,14 +71,14 @@ $ python nidec-inventory.py -p "../REPO/Unidrive M Connect/" -o excel -f log
 
 - Carlos Alonso Martín
 
+## Contributors and Maintainers
+
+The main contributor to this repository is Carlos Alonso Martín. You can reach out to them for more information and guidance on contributing to the project.
+
 ## Changelog
 
 * 0.0a14
   * Bugs fixed 
-* 0.0a5
-  * Code rearrangement
-* 0.0a4
-  * Bugs fixed with excel format
 
 ## Licencia
 
