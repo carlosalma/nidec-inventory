@@ -53,7 +53,7 @@ $ python nidec-inventory.py -p "../REPO/Unidrive M Connect/" -f log
 $ python nidec-inventory.py -p "../REPO/Unidrive M Connect/" -o csv -f log
 ```
 
-```suelo
+```shell
 # Example of output in Excel format
 $ python nidec-inventory.py -p "../REPO/Unidrive M Connect/" -o excel -f log
 ```

@@ -47,13 +47,13 @@ pip install nidec-inventory
 
 Ejemplos de ejecución:
 
-```shelter
+```shell
 # Ejemplos de salida en formato csv
 $ python nidec-inventory.py -p "../REPO/Unidrive M Connect/" -f log
 $ python nidec-inventory.py -p "../REPO/Unidrive M Connect/" -o csv -f log
 ```
 
-```shelter
+```shell
 # Ejemplo de salida en formato excel
 $ python nidec-inventory.py -p "../REPO/Unidrive M Connect/" -o excel -f log
 ```
